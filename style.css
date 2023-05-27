@@ -1,0 +1,315 @@
+*{
+    margin: 0%;
+    font-family: 'Netflix Sans';
+}
+@font-face {
+    font-family: 'Netflix Sans';
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+body{
+    margin: 0%;
+    background-color:rgba(0, 8, 29, 1);
+    padding: 0%;
+    font-family: 'Netflix Sans';
+}
+
+.nav img{
+    width: 190px;
+}
+.nav{
+    padding-inline-start: 25px;
+    padding-inline-end: 42px;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+
+.first{
+
+    background-image:  linear-gradient(-160deg, #e509148e 1%, transparent 90%), url(https://assets.nflxext.com/ffe/siteui/vlv3/51e53f54-0d9f-40ec-9e05-c030def06ac9/be5b2939-da9f-4b9f-b76b-31b32ad0515b/IN-en-20230515-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 92vw;
+    height: 545px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -8px;
+}
+
+.second{
+    background-color: #0e0922;
+    border-radius:15px ;
+    width: 92vw;
+    margin-top: 20px; 
+    padding-inline-start: 90px;
+    padding-inline-end: 90px;  
+}
+.sct{
+    width: 100%;
+}
+.mainImg,.subtext{
+    width: 50%;
+}
+
+
+.srch2,.srch1{
+    
+    min-height: 50px;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    background-color: #0f1118;
+   opacity: 80%;
+   color: white;
+   margin-right: 12px;
+   padding-left: 10px;
+   border-radius: 5px;
+}
+.selected{
+    border:1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    background-color: #0f1118;
+    height:2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 5px 17px 5px ;
+}
+
+.nav-item2{
+    background-color:#e50914;
+    border-radius: 4px;
+    color: rgb(229, 9, 20);
+    width:69px;
+    padding:none;
+    margin: 5px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main h1{
+    font-size: 3.5rem;
+    font-weight:1000;
+}
+.subtext h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+p{
+    font-size: 1.2rem;
+}
+.subtext{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+}
+.sct1 h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.main{
+    padding-left: 100px;
+}
+
+
+.fQtn li{
+    background-color:rgba(19, 33, 68, 1);
+    margin-bottom: 10px;
+    padding: 25px 0  25px 15px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.fQtn svg{
+    float: right;
+    margin-right:15px ;
+    width: 29px;
+    height: 29px;
+}
+.faq ul:nth-child(1){
+    padding-left:0px ;
+}
+.faq li{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.navbar-collapse ul{
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+.qtns a{
+    font-size: 25px;
+    text-decoration: none;
+}
+a,.nav-link{
+    color: white;
+}
+.faq ul{
+    padding-left: 12%;
+    margin-block-start: 40px;
+}
+.qtns {
+    margin-top: 110px;
+}
+.btn1,.btn2{
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(229, 9, 20); font-weight:200; font-size:1.5rem; padding: 0 19px ; height: 50px; color: #fff;
+}
+h6{
+    margin-top: 30px;
+    color: #fff;
+    opacity: 90%;
+}
+.nav-item2:hover,.btn2:hover,.btn1:hover{
+    background-color:rgb(199, 9, 18) ;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.fQtn li:hover{
+    background-color:rgb(35, 53, 99);
+}
+a:hover{
+    color: #fff;
+}
+
+    
+.input-control input:focus{
+    outline: 0;
+}    
+
+.input-control .success input{
+    border-color: #09c372;
+}
+.input-control .error input{
+    border-color: #ff3860;
+} .input-control .error{
+    color: #ff3860;
+    font-size: 9px;
+}
+#email{
+    min-width: 25vw;
+}
+
+
+@media screen and (max-width:500px){
+    .second img{
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         
+     }
+     
+     .second{
+         padding-inline-start: 3%;
+     padding-inline-end: 3%;  
+     }
+     .first{
+         padding-left:4%;  
+         height: 545px;
+         margin-top: 5px;
+     }
+     body{
+         padding-left: 5%;
+         padding-right:5%;
+         width: 100%;
+     }
+     .nav img{
+         width: 50%;
+         margin-left: -34px;
+     }
+     .nav{
+        padding-inline-start: -2px;
+        padding-inline-end:0;
+    }
+     .nav-link{
+         padding: 5%;
+     }
+     .mainImg,.subtext{
+         width: 100%;
+     }
+    .sect{
+     padding: 15px 0 15px 0;
+    }
+    .faq {
+     display: flex;
+     flex-direction: column;}
+
+     .faq li{
+        padding: 8px;
+     }
+ 
+     .faq ul:nth-child(2),.faq ul:nth-child(3),.faq ul:nth-child(4){
+         margin-top: -15px;
+         padding-left:0px ;
+     }
+ 
+     .selected{
+         height:1em;
+         padding: 14px 2px ;
+     }
+     .srch1,.srch2{
+         margin-bottom: 10px;
+   
+
+     }
+     #email{
+        min-width: 80vw;
+     }
+     .english{
+         display: none;
+     }
+     .main h1{
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    .subtext h1{
+        font-size: 2rem;
+        font-weight: 750;
+    }
+    .sct1 h1{
+        font-size: 2rem;
+        font-weight: 600;}
+
+    .fQtn svg{
+        width: 20px;
+         height: 20px;
+    }
+    .btn1,.btn2{
+        
+        background-color:rgb(229, 9, 20); font-weight:100; font-size:1rem; padding: 0 15px ; height: 50px; color: #fff;
+    }
+    .p{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    .ftr{
+        padding-inline-start: 10px;
+    }
+    .sectrev{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+ }
